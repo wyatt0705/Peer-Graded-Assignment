@@ -2,7 +2,7 @@
 # File: guessinggame
 
 function guess {
-	local correct_answer = $(ls . | wc -w)
+	local correct_answer=$(ls . | wc -w)
 
 	while true
 	do
