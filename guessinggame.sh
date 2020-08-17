@@ -21,4 +21,4 @@ function guess {
 	done
 }
 echo "Guess the number of files in current directory"
-
+guess
